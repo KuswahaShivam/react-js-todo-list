@@ -1,5 +1,5 @@
 * {
-  font-family: "Inter", sans-serif;
+  font-family: "Poppins", sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -11,7 +11,7 @@ h2,
 h3,
 input,
 button {
-  font-family: "Press Start 2P", system-ui;
+  font-family: "Roboto Mono"
 }
 
 #root {
@@ -54,7 +54,7 @@ header input {
 }
 
 header button {
-  border-radius: 14px;
+  border-radius: 10px;
   background: transparent;
   transition-duration: 200ms;
   cursor: pointer;
@@ -66,12 +66,10 @@ header button:hover {
 
 header button,
 header input {
-  padding: 14px 18px;
+  padding: 10px 18px;
   border: none;
   outline: none;
-  background:black; 
-  
-
+  background:rgba(132, 225, 253, 0.527);
 }
 
 p {
@@ -89,8 +87,8 @@ p {
   align-items: center;
   gap: 14px;
   padding: 14px;
-  border-radius: 14px;
-  background: rgb(0, 0, 0);
+  border-radius: 10px;
+  background: rgba(137, 173, 240, 0.781);
 }
 
 .todoItem p {
