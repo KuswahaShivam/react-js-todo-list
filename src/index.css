@@ -70,6 +70,7 @@ header input {
   border: none;
   outline: none;
   background:rgba(132, 225, 253, 0.527);
+  color: black;
 }
 
 p {
